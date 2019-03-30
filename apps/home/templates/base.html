@@ -1,0 +1,16 @@
+<!doctype html>
+
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>SetupWebpack | {{ title }}</title>
+    </head>
+
+    <body>
+        {% block content %}{% endblock %}
+
+        {% load static %}
+        <script src="{% static 'bundle.js' %}"></script>
+    </body>
+
+</html>

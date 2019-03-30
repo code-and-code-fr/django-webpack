@@ -1,17 +1,7 @@
-<!doctype html>
+{% extends "base.html" %}
 
-<html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <title>SetupWebpack | {{ title }}</title>
-    </head>
+{% block content %}
 
-    <body>
-        <h1>Hello Webpack !</h1>
-        <!-- Le reste du contenu -->
+    <h1>Hello Webpack !</h1>
 
-        {% load static %}
-        <script src="{% static 'bundle.js' %}"></script>
-    </body>
-
-</html>
+{% endblock %}
